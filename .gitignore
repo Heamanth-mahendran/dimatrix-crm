@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # databases
 *.db
 *.db-shm
@@ -8,6 +9,9 @@ __pycache__/
 *.pyc
 venv/
 .env
+=======
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+>>>>>>> 12313050958124f8b3aadb804842a8e9a09f1392
 
 # dependencies
 /node_modules
@@ -29,4 +33,8 @@ venv/
 
 npm-debug.log*
 yarn-debug.log*
+<<<<<<< HEAD
 yarn-error.log*
+=======
+yarn-error.log*
+>>>>>>> 12313050958124f8b3aadb804842a8e9a09f1392

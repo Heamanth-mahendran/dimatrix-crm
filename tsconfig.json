@@ -1,7 +1,16 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
     "target": "ES2017",              // ← was "es5" (deprecated in TS 7.0)
     "lib": ["dom", "dom.iterable", "esnext"],
+=======
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+>>>>>>> 12313050958124f8b3aadb804842a8e9a09f1392
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -10,11 +19,22 @@
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
+<<<<<<< HEAD
     "moduleResolution": "bundler",   // ← was "node" (deprecated, use "bundler" for CRA/Vite)
+=======
+    "moduleResolution": "node",
+>>>>>>> 12313050958124f8b3aadb804842a8e9a09f1392
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx"
   },
+<<<<<<< HEAD
   "include": ["src"]
 }
+=======
+  "include": [
+    "src"
+  ]
+}
+>>>>>>> 12313050958124f8b3aadb804842a8e9a09f1392
